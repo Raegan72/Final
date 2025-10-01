@@ -1,0 +1,15 @@
+
+
+.ryanhallimg {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 700%;
+max-width: 600px;
+}
+
+.ryanhallimg figcaption {
+    text-align: center;
+    margin-top: 88px;      
+    font-style: italic;   
+}
