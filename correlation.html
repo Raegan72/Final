@@ -25,7 +25,7 @@
         <section>
             <h2>Understanding Correlation Coefficient in Doppler Radar</h2>
             <p>
-                The <strong>correlation coefficient (CC)</strong> is an important feature of Doppler radar that helps meteorologists separate precipitation from other objects in the atmosphere. It compares the consistency of radar returns across different locations, helping to distinguish between regular precipitation and more unusual objects, like debris from a tornado, birds, or insects.
+                The correlation coefficient (CC) is an important feature of Doppler radar that helps meteorologists separate precipitation from other objects in the atmosphere. It compares the consistency of radar returns across different locations, helping to distinguish between regular precipitation and more unusual objects, like debris from a tornado, birds, or insects.
             </p>
 
             <p>
@@ -33,10 +33,15 @@
             </p>
 
             <h3>Color-Coded Correlation Coefficient</h3>
-            <p>The CC data is color-coded to help meteorologists interpret the data more easily:</p>
-            <ul>
-                <li><strong>High correlation (close to 1.0)</strong> indicates typical precipitation, like rain or snow.</li>
-                <li><strong>Low correlation (far below 1.0)</strong> suggests the presence of unusual objects, like debris, birds, or insects.</li>
+            <p>The <strong>Correlation Coefficient (CC)</strong> data is color-coded to help meteorologists easily interpret the radar information. The color-coding corresponds to the correlation between radar returns, which indicates the type of precipitation or objects present in the atmosphere:</p>
+
+<ul>
+    <li><span class="high-correlation">High correlation (close to 1.0)</span> is typically associated with uniform precipitation, like rain or snow. These areas are usually shown in <span class="green">green</span> or <span class="yellow">yellow</span> on the radar. This means the radar is detecting consistent, similarly sized particles, such as water droplets or snowflakes.</li>
+    <li><span class="low-correlation">Low correlation (far below 1.0)</span> suggests the presence of irregular objects, such as debris from a tornado, birds, or insects. These areas are often shown in <span class="blue">blue</span>, <span class="purple">purple</span>, or <span class="red">red</span> on radar images. Low correlation values indicate the radar is detecting a mix of objects with varying sizes and shapes, which is common in severe weather situations, like tornadoes where debris is lifted into the air.</li>
+</ul>
+
+
+
             </ul>
 
             <p>
@@ -47,7 +52,7 @@
 
 <figure>
   <div class="">
-    <img src="Images/cc_screenshot 173416.png" alt="Radar image showing tornado debris in Hendersonville, TN">
+    <img class="cctornado" src="Images/cc_screenshot 173416.png" alt="Radar image showing tornado debris in Hendersonville, TN">
     <figcaption>Radar image from December 9th, 2023, showing a tornado near Hendersonville, TN. The low correlation coefficient (blue) inside the storm indicates debris being lifted into the storm by the tornado.</figcaption>
 </figure>
 

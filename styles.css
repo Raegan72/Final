@@ -1,15 +1,125 @@
-
-
 .ryanhallimg {
-  display: block;
-margin-left: auto;
-margin-right: auto;
-width: 700%;
-max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
 }
 
-.ryanhallimg figcaption {
+.ryanhallimg + figcaption {
     text-align: center;
-    margin-top: 88px;      
-    font-style: italic;   
+    margin-top: 8px;
+    font-style: italic;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.squallline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+}
+
+.squallline + figcaption {
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cctornado {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+}
+
+.cctornado + figcaption {
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.supercellstorm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+}
+
+.supercellstorm + figcaption {
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.green-text {
+    color: darkgreen;
+}
+
+.red-text {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+.purple {
+    color: purple;
+}
+
+.black {
+    color: black;
+}
+}
+.purple {
+    color: purple;
+}
+
+.blue {
+    color: darkblue;
+}
+
+
+
+}
+
+
+
+
+}
+
+
+
+
